@@ -1,0 +1,218 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;*/*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+/*header start*/
+header{
+	padding: 25px 0px;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+}
+.logo a img{
+	width: 100%;
+}
+.nav{
+	width: 70%;
+	float: right;
+	margin-top: 8px;
+}
+.nav ul{
+	float: right;
+
+}
+.nav ul li{
+	list-style: none;
+	float: left;
+}
+.nav ul li a{
+	font-weight: 400;
+	font-size: 16px;
+	color: #626262;
+	transition: 1s;
+	text-transform: uppercase;
+	text-decoration: none;
+    padding: 0px 50px;
+    display: block; 
+}
+.nav ul li:last-child a{
+	padding-right: 0;
+}
+.nav ul li a:hover{
+	color: #000000;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	margin-bottom: 60px;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+
+/*photodiary start*/
+.content{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.head{
+	font-weight: 700;
+	color:#626262;
+	margin: 20px 0px;
+}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.pragraph{
+	font-weight: 400;
+	color:#626262;
+	margin: 20px 0px 0px 0px;
+}
+/*photodiary end*/
+
+/*blog start*/
+.photo_diary{
+	overflow: hidden;
+	margin: 0 auto;
+}
+.blog1{
+	width: 48%;
+	float: left;
+	padding: 60px 0px;
+}
+.blog1 img{
+	width: 100%;
+}
+.blog1:nth-child(2){
+	margin-left: 4%;
+}
+/*blog end*/
+
+/*sign_up start*/
+.contact{
+	background-color: #f0f0f0;
+	padding: 60px 0px;
+}
+.sign_up{
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+.sign_up h1{
+	font-weight: 700;
+	color:#626262;
+	margin: 20px 0px;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.for_form{
+	width: 400px;
+	position: relative;
+	margin: 0 auto;
+}
+.for_form input{
+	border: none;
+	outline: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    width: 290px;
+    font-size: 16px;
+    padding: 20px 35px 5px 0px;
+}
+.for_form button{
+	border:none;
+	background:transparent;
+	position: absolute;
+	top: 20px;
+    right: 32px;
+}
+/*sign_up end*/
+
+/*photo diary start*/
+/*photo diary connect with blog 1 sections*/
+/*photo diary end*/
+
+/*learn more button start*/
+.load_more{
+	    margin: 100px 0px;
+}
+.buton{
+	margin-top: 40px 0px;
+	text-align: center;
+}
+.buton button{
+	font-size: 25px;
+	padding: 30px 40px;
+    border: none;
+    background: transparent;
+    border: 1px solid grey;
+    transition: 0.5s;
+}
+.buton button:hover{
+	color:white;
+	background-color: #626262;
+	border: 1px solid #ffffff;
+}
+/*learn more button end*/
+
+/*footer start*/
+footer{
+	width: 100%;
+    margin: 175px 0px 0px 0px;
+    background-color: #f0f0f0;
+    padding: 15px 0;
+}
+.footer_menu{
+	/*margin: 80px 0px 0px 0px;*/
+	text-align: center;
+}
+.footer_menu ul{
+	float: left;
+	padding-left: 0;
+}
+.footer_menu ul li{
+	float: left;
+	list-style: none;
+}
+.footer_menu ul li a{
+	font-size: 14px;
+	color: #626262;
+	text-decoration: none;
+    padding: 0px 20px;
+}
+.footer_menu ul li:first-child a{
+	padding-left: 0;
+}
+.icon{
+}
+.icon ul{
+	float: right;
+}
+.icon ul li{
+	float: left;
+}
+.icon ul li a{
+
+}
+.icon ul li:last-child a{
+	padding-right: 0;
+}
+/*footer endt*/
